@@ -1,0 +1,1 @@
+# vinox-ci-go-image
