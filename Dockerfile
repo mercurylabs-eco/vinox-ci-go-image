@@ -20,7 +20,7 @@ RUN curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2
 RUN go install github.com/golangci/golangci-lint/cmd/golangci-lint@v1.44.2
 
 # Install Zig
-RUN curl -o zig.tar.xz https://ziglang.org/builds/zig-linux-x86_64-0.11.0-dev.1606+3c2a43fdc.tar.xz \
+RUN curl -o zig.tar.xz https://ziglang.org/builds/zig-linux-x86_64-0.14.0-dev.1820+ea527f7a8.tar.xz \
     && mkdir /usr/lib/zig && tar xf zig.tar.xz -C /usr/lib/zig --strip-components=1 \
     && ln -s /usr/lib/zig/zig /usr/bin/zig
 
