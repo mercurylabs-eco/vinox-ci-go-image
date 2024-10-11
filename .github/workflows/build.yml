@@ -10,7 +10,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      CI_IMAGE_TAG: 2024100901
+      CI_IMAGE_TAG: 2024101101
     steps:
       # Step 1: Checkout the code from the repository
       - name: Checkout repository
